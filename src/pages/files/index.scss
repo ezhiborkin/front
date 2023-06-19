@@ -1,0 +1,51 @@
+.filemanager {
+
+    &-title {
+        font-size: 64;
+        font-weight: 500;
+
+        // margin: 20px;
+    }
+
+    &__wrapper {
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+}
+
+.upload {
+
+    &-table {
+        margin: 10px 0 0 0;
+    }
+
+    &__wrapper {
+        padding: 50px 0 0 0;
+        width: 80%;
+    }
+
+}
+
+.change {
+
+    &__wrapper {
+        padding: 50px 0 0 0;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.action {
+    &__wrapper {
+        box-sizing: border-box;
+        width: 200px;
+        padding: 10px;
+        border: 1px black solid;
+        border-radius: 9px;
+    }
+
+    &-title {
+        padding: 20 20 20 20;
+    }
+}

@@ -1,0 +1,31 @@
+.login {
+    &-title {
+        box-sizing: border-box;
+        padding-bottom: 1200px;
+    }
+
+    &__wrapper {
+        position: absolute;
+        padding-top: 20px;
+        padding-left: 648px;
+    }
+
+    &__base{
+        padding-top: 180px;
+        padding-left: 700px;
+        font-size:x-large;
+    }
+
+    &-form {
+        max-width: 300px;
+      }
+    &-form-forgot {
+        float: right;
+      }
+    &-form-forgot {
+        float: left;
+      }
+    &-form-button {
+        width: 100%;
+      }
+}
